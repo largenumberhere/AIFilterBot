@@ -25,7 +25,7 @@ Ensure you have dotnet 7.0 sdk installed. https://dotnet.microsoft.com/en-us/dow
 Run alpaca.http open a powershell in the folder you installed this and run the command "<code>./server --server-address 127.0.0.1 --server-port 1000</code>".
 
 This project was made and run in visual studio, however you don't need it to run this.
-In this project's folder (with Program.cs) run the command dotnet run.
+In this project's folder (with Program.cs) run the command <code>dotnet run</code>.
 You should be greeted with a prompt for the discord token. Paste in the one you got in setup with right-click. 
 
 <h1>Warning:</h1>

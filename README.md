@@ -28,8 +28,14 @@ This project was made and run in visual studio, however you don't need it to run
 In this project's folder (with Program.cs) run the command <code>dotnet run</code>.
 You should be greeted with a prompt for the discord token. Paste in the one you got in setup with right-click. 
 
+<h1>Usage</h1>
+Send a message in a server the bot is conencted to. It make take several minuites to process your message for the first time (The bot caches the AI's reponse). If the bot decides your message is offesive, it will call it out. If not, it will stay silent. To veridy it is working correctly, you can see logs of the dicision being made in this program's output, and you can also look at the output of alpaccahttp. 
+
+<h1>Comments</h1>
+Although the idea is a fun proof of concept, the AI's responses seem to be unpredicatable. Perhaps with some finer tuning for the AI, it could become a viable alternative to manual or 'sware word blacklist'-style moderation.
+
 <h1>Warning:</h1>
-This program will save the token in the .\bin\Debug\net7.0\data run directory in a compressed file called "data.file". 
+This program will save the discord token in the .\bin\Debug\net7.0\data run directory in a compressed file called "data.file". 
 It is not plain text but it is easy to decode with the right knowledge.
 Do not data.file to anyone else!
 </p>
